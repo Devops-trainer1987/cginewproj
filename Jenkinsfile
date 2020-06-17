@@ -19,7 +19,7 @@ pipeline {
       }
       stage('Execute') {
          steps {
-            bat 'java -jar "C:/Program Files (x86)/Jenkins/workspace/pipeline/target/Micro-1.0-SNAPSHOT.jar"'
+            bat 'java -jar "C:/Program Files (x86)/Jenkins/workspace/cgi_pipeline/target/cgiproj-1.0-SNAPSHOT.jar"'
          }
       }
    }
